@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import classnames from "classnames";
 import styles from "./masterdetail.module.css";
-import imgGreyAvatar from "../../images/GreyAvatar.svg";
+import flagAvatar from "../../images/flag.png";
 import PropTypes from "prop-types";
 
 const MasterDetailSideBarTab = ({ sampleOrder, selectSampleOrder }) => {
@@ -15,7 +15,7 @@ const MasterDetailSideBarTab = ({ sampleOrder, selectSampleOrder }) => {
         styles.sidebarText
       )}
     >
-      <img src={ sampleOrder.imageSrc ? sampleOrder.imageSrc : imgGreyAvatar} alt="Default Grey Avatar" className="mr-3" />
+      <img src={ sampleOrder.imageSrc ? sampleOrder.imageSrc : flagAvatar} alt="Flag" height="40" width="40" className="mr-3" />
       {sampleOrder.title}
     </button>
   );

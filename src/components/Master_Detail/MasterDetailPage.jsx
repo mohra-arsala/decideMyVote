@@ -7,10 +7,9 @@ const MasterDetailPage = ({ textSampleData }) => {
   const {
     longDescription,
     title,
-    status,
-    shipTo,
-    orderTotal,
-    orderDate
+    runningFor,
+    party,
+    endorsements,
   } = textSampleData;
   return (
     <div className="col">
@@ -21,14 +20,12 @@ const MasterDetailPage = ({ textSampleData }) => {
       </div>
       <div className="row">
         <div className="col-md-8 col-12 ml-3 mb-5 mt-3">
-          <p className={styles.title}>Status</p>
-          <p>{status}</p>
-          <p className={styles.title}>Order Date</p>
-          <p>{orderDate}</p>
-          <p className={styles.title}>Ship To</p>
-          <p>{shipTo}</p>
-          <p className={styles.title}>Order Total</p>
-          <p>{orderTotal}</p>
+          <p className={styles.title}>Running For</p>
+          <p>{runningFor}</p>
+          <p className={styles.title}>Party</p>
+          <p>{party}</p>
+          <p className={styles.title}>Endorsements</p>
+          <p>{endorsements}</p>
           <p className={styles.title}>Description</p>
           <p>{longDescription}</p>
         </div>
