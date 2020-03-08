@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "name": {
+      "value": "decideMyVote-20200307162841"
+    },
+    "appServicePlanName": {
+      "value": "decideMyVote-20200307162854"
+    },
+    "tier": {
+      "value": "Basic"
+    },
+    "sku": {
+      "value": "B1"
+    },
+    "linuxFxVersion": {
+      "value": "node|10.14"
+    },
+    "subscriptionId": {
+      "value": "038cf9fe-6444-4233-a1a2-385df5b4023b"
+    },
+    "location": {
+      "value": "Central US"
+    }
+  }
+}
